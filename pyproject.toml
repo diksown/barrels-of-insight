@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "barrels-of-insight"
+version = "0.1.0"
+description = ""
+authors = ["Dikson Santos <diksonfer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "barrels_of_insight"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.2"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
